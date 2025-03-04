@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2 - Sketch</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="libraries/p5.min.js"></script>
+  </head>
+  <body style="background-color: black;">
+    <!-- Sketch2.js 动画会显示在这里 -->
+    <script src="sketch2.js"></script>
+
+    <!-- 右下角的文字链接 "next page" -->
+    <a id="next-page" href="page3.html">next page</a >
+
+    <style>
+      /* 右下角文字链接的 CSS 样式 */
+      #next-page {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 32px;
+        color: white;
+        text-decoration: none; /* 去掉下划线 */
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      #next-page:hover {
+        color: #ddd; /* 鼠标悬停时变色 */
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+  
+    /* style.css */
+#next-page {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+  line-height: 100px;  /* 使文字垂直居中 */
+  background-color: rgba(0, 0, 0, 0.5);  /* 半透明背景，可根据需要调整 */
+  padding: 0 20px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1000;  /* 确保覆盖在画布上 */
+}
+
+#next-page a {
+  text-decoration: none;
+  color: inherit;
+}
+  }
+  
+  canvas {
+    display: block;
+  }
